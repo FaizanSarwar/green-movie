@@ -1,0 +1,22 @@
+export const genres = {
+  status: 'success',
+  status_msg: 'List of availble film genres filtered by GeoIP.',
+  data: [
+    'Video On Demand',
+    'Recent',
+    'Originals',
+    'Top 12 Impact',
+    'Documentary',
+    'Series',
+    'Features',
+    'Comedy',
+    'First Nations',
+    'Shorts',
+    'Public Interest',
+    'Climate',
+    'Children',
+    'Animals',
+    'Plants',
+    'Water',
+  ],
+};

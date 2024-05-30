@@ -1,0 +1,49 @@
+.StripeElement {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #495057;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* border-bottom: 1px solid #CED4DA; */
+  padding: 8px 12px 6px 12px;
+  width: 100%;
+  margin:8px 0px 4px -1px;
+  height:36px;
+  box-sizing: border-box;
+  transform: translateZ(0);
+}
+.PaymentElement {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #495057;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* border-bottom: 1px solid #CED4DA; */
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 8px 12px 6px 12px;
+  width: 100%;
+  margin:8px 0px 4px -1px;
+  height:36px;
+  box-sizing: border-box;
+  transform: translateZ(0);
+}
+.error-msg {
+  color: #9e2146;
+  margin-top: 5px;
+}
+.PaymentElement:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+.StripeElement--invalid {
+  border-bottom: 1px solid #9e2146;
+}

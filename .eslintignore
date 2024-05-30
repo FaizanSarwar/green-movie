@@ -1,0 +1,5 @@
+# Ignore files/folders from validating
+/node_modules
+/.next
+
+/public/js

@@ -1,0 +1,28 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/tgc-webfrontend
+    file_exists_behavior: overwrite
+file_exists_behavior: OVERWRITE
+hooks:
+  ApplicationStop:
+    - location: aws-deploy/scripts/application_stop.sh
+      timeout: 30
+      runas: root
+#  BeforeInstall:
+#    - location: aws-deploy/scripts/codedeploy/deregister_from_elb.sh
+#      timeout: 400
+#    - location: aws-deploy/scripts/before_install.sh
+#      timeout: 400
+#      runas: root
+  AfterInstall:  
+    - location: aws-deploy/scripts/after_install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: aws-deploy/scripts/application_start.sh
+      timeout: 30
+      runas: root
+#  - location: aws-deploy/scripts/codedeploy/register_with_elb.sh
+#    timeout: 12011

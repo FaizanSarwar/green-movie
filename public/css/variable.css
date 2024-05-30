@@ -1,0 +1,19 @@
+/*------------- Variable ------------*/
+
+:root {
+  --iq-primary: #6dd400;
+  --iq-primary-hover: #6dd400ff;
+  --iq-light-primary: #d7d3f8;
+  --iq-secondary: #6c757d;
+  --iq-white: #ffffff;
+  --iq-black: #000000;
+  --iq-title-text: #23203c;
+  --iq-body-text: #d1d0cf;
+  --iq-body-bg: #000000ff;
+  --iq-bg1: #191919;
+  --iq-body-border: #393750;
+  --iq-gold: #e6c75f;
+  --iq-black: #000000;
+  --tgc-light-gray: #515151;
+  --tgc-dark-gray: #2a2a2a;
+}
