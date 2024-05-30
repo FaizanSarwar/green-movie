@@ -8,7 +8,6 @@
 - `services` folder will contain application logic and will serve as a glue between controllers and models
 - `utils` folder will contain helper functions to perform required operations
 - text
-- text
 
   <br />
 
